@@ -1,0 +1,25 @@
+.left-navbar {
+    background-color: #ffffff;
+    width: 100%;
+    height: 96vh;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(95, 95, 95, 0.5);
+}
+
+
+.chat-history-list {
+    height: 50vh;
+    margin-bottom: 5%;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.left-bottom-button {
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 0 2px rgba(95, 95, 95, 0.5);
+    padding: 2%
+}

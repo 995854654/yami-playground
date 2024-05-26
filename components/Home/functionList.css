@@ -1,0 +1,13 @@
+.div-menu-item {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid #2980b9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.div-menu-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  }

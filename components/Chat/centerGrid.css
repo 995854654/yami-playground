@@ -1,0 +1,27 @@
+.center-chat {
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 90vh;
+}
+
+.chat-info {
+    height: 80vh;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+/* 滚动底部模糊化处理 */
+.chat-blur {
+    height: 20px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    filter: blur(10px);
+    z-index: 1;
+    transition: opacity 0.3s ease;
+}
+
+.chat-input {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
